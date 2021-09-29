@@ -40,6 +40,10 @@ public class Book {
 		this.title = title;
 		this.author = author;
 	}//end non-default constructor
+	
+	public Book(String title) {
+		this.title = title;
+	}//end non-default constructor
 
 	public String getTitle() {
 		return title;
