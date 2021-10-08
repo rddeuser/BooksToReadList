@@ -72,7 +72,7 @@ public class ListNavigationServlet extends HttpServlet {
 			}
 		}
 		else if (act.equals("add")) {
-			path = "/new-list.jsp";
+			path = "/AddItemsForListServlet";
 		}
 		
 		getServletContext().getRequestDispatcher(path).forward(request, response);
