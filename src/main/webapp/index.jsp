@@ -17,5 +17,8 @@
 	</form><br />
 	
 	<a href ="ViewAllItemsServlet">View the complete list</a>
+	
+	<a href="ViewAllListsServlet">View all reading lists</a>
+	<a href="AddItemsForListServlet">Create a new list</a>
 </body>
 </html>
